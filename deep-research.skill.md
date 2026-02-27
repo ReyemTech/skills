@@ -94,7 +94,7 @@ Launch one agent per research direction in parallel:
 Task(
     prompt="Research {direction} for {topic}. Context: {scoping_notes}",
     subagent_type="general-purpose",
-    model="haiku",
+    model="sonnet",
     run_in_background=True
 )
 ```
